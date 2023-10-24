@@ -1,0 +1,7 @@
+pytest==6.2.5
+allure_python_commons==2.9.45
+click==7.1.2
+attrs==22.1.0
+facebook_wda==1.4.6
+attr==0.3.2
+wda==0.3.0
