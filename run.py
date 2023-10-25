@@ -33,7 +33,7 @@ def run(**options):
     else:
         env = options['env']
     logger.info('当前运行环境为:{}'.format(env))
-    pytest.main(['./test_case/test_2_homepage', '--env=' + env])
+    pytest.main(['./test_case', '--env=' + env])
 
 
 if __name__ == '__main__':

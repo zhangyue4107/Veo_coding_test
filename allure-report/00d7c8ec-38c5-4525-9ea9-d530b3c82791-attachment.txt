@@ -1,0 +1,91 @@
+DEBUG    faker.factory:factory.py:90 Looking for locale `en_US` in provider `faker.providers.address`.
+DEBUG    faker.factory:factory.py:104 Provider `faker.providers.address` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:90 Looking for locale `en_US` in provider `faker.providers.automotive`.
+DEBUG    faker.factory:factory.py:104 Provider `faker.providers.automotive` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:90 Looking for locale `en_US` in provider `faker.providers.bank`.
+DEBUG    faker.factory:factory.py:98 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+DEBUG    faker.factory:factory.py:90 Looking for locale `en_US` in provider `faker.providers.barcode`.
+DEBUG    faker.factory:factory.py:104 Provider `faker.providers.barcode` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:90 Looking for locale `en_US` in provider `faker.providers.color`.
+DEBUG    faker.factory:factory.py:104 Provider `faker.providers.color` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:90 Looking for locale `en_US` in provider `faker.providers.company`.
+DEBUG    faker.factory:factory.py:104 Provider `faker.providers.company` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:90 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+DEBUG    faker.factory:factory.py:104 Provider `faker.providers.credit_card` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:90 Looking for locale `en_US` in provider `faker.providers.currency`.
+DEBUG    faker.factory:factory.py:104 Provider `faker.providers.currency` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:90 Looking for locale `en_US` in provider `faker.providers.date_time`.
+DEBUG    faker.factory:factory.py:104 Provider `faker.providers.date_time` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:115 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    faker.factory:factory.py:90 Looking for locale `en_US` in provider `faker.providers.geo`.
+DEBUG    faker.factory:factory.py:104 Provider `faker.providers.geo` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:90 Looking for locale `en_US` in provider `faker.providers.internet`.
+DEBUG    faker.factory:factory.py:104 Provider `faker.providers.internet` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:115 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    faker.factory:factory.py:90 Looking for locale `en_US` in provider `faker.providers.job`.
+DEBUG    faker.factory:factory.py:104 Provider `faker.providers.job` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:90 Looking for locale `en_US` in provider `faker.providers.lorem`.
+DEBUG    faker.factory:factory.py:104 Provider `faker.providers.lorem` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:90 Looking for locale `en_US` in provider `faker.providers.misc`.
+DEBUG    faker.factory:factory.py:104 Provider `faker.providers.misc` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:90 Looking for locale `en_US` in provider `faker.providers.person`.
+DEBUG    faker.factory:factory.py:104 Provider `faker.providers.person` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:90 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+DEBUG    faker.factory:factory.py:104 Provider `faker.providers.phone_number` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:115 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    faker.factory:factory.py:115 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    faker.factory:factory.py:90 Looking for locale `en_US` in provider `faker.providers.ssn`.
+DEBUG    faker.factory:factory.py:104 Provider `faker.providers.ssn` has been localized to `en_US`.
+DEBUG    faker.factory:factory.py:115 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/99B890FC-0CDA-4EA3-83C5-59D2147EA319/elements HTTP/1.1" 200 232
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "GET /session/99B890FC-0CDA-4EA3-83C5-59D2147EA319/element/28000000-0000-0000-190C-000000000000/rect HTTP/1.1" 200 143
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/99B890FC-0CDA-4EA3-83C5-59D2147EA319/wda/tap/0 HTTP/1.1" 200 76
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/99B890FC-0CDA-4EA3-83C5-59D2147EA319/elements HTTP/1.1" 200 232
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "GET /session/99B890FC-0CDA-4EA3-83C5-59D2147EA319/element/4F010000-0000-0000-190C-000000000000/rect HTTP/1.1" 200 142
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/99B890FC-0CDA-4EA3-83C5-59D2147EA319/wda/tap/0 HTTP/1.1" 200 76
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "GET /screenshot HTTP/1.1" 200 1527553
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'IHDR' 16 13
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'sRGB' 41 1
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'eXIf' 54 56
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'iDOT' 122 28
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:698 b'iDOT' 122 28 (unknown)
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'IDAT' 162 16384
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "GET /session/99B890FC-0CDA-4EA3-83C5-59D2147EA319/window/size HTTP/1.1" 200 115
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/99B890FC-0CDA-4EA3-83C5-59D2147EA319/wda/dragfromtoforduration HTTP/1.1" 200 76
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "GET /screenshot HTTP/1.1" 200 252878
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'IHDR' 16 13
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'sRGB' 41 1
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'eXIf' 54 56
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'iDOT' 122 28
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:698 b'iDOT' 122 28 (unknown)
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'IDAT' 162 16384
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/99B890FC-0CDA-4EA3-83C5-59D2147EA319/elements HTTP/1.1" 200 232
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "GET /session/99B890FC-0CDA-4EA3-83C5-59D2147EA319/element/2C020000-0000-0000-190C-000000000000/rect HTTP/1.1" 200 143
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/99B890FC-0CDA-4EA3-83C5-59D2147EA319/wda/tap/0 HTTP/1.1" 200 76
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "GET /screenshot HTTP/1.1" 200 511631
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'IHDR' 16 13
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'sRGB' 41 1
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'eXIf' 54 56
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'iDOT' 122 28
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:698 b'iDOT' 122 28 (unknown)
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'IDAT' 162 16384
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/99B890FC-0CDA-4EA3-83C5-59D2147EA319/elements HTTP/1.1" 200 232
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "GET /session/99B890FC-0CDA-4EA3-83C5-59D2147EA319/element/4A020000-0000-0000-190C-000000000000/rect HTTP/1.1" 200 144
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/99B890FC-0CDA-4EA3-83C5-59D2147EA319/wda/tap/0 HTTP/1.1" 200 76
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "GET /screenshot HTTP/1.1" 200 429400
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'IHDR' 16 13
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'sRGB' 41 1
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'eXIf' 54 56
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'iDOT' 122 28
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:698 b'iDOT' 122 28 (unknown)
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'IDAT' 162 16384
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/99B890FC-0CDA-4EA3-83C5-59D2147EA319/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/99B890FC-0CDA-4EA3-83C5-59D2147EA319/elements HTTP/1.1" 200 232
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "GET /screenshot HTTP/1.1" 200 907758
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'IHDR' 16 13
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'sRGB' 41 1
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'eXIf' 54 56
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'iDOT' 122 28
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:698 b'iDOT' 122 28 (unknown)
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'IDAT' 162 16384
+INFO     test:test_1_login.py:33 退出登录成功

@@ -1,0 +1,23 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "GET /session/99B890FC-0CDA-4EA3-83C5-59D2147EA319/window/size HTTP/1.1" 200 115
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/99B890FC-0CDA-4EA3-83C5-59D2147EA319/wda/dragfromtoforduration HTTP/1.1" 200 76
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/99B890FC-0CDA-4EA3-83C5-59D2147EA319/elements HTTP/1.1" 404 11178
+WARNING  retry.api:api.py:40 WDARequestError(status=110, value={'error': 'stale element reference', 'message': 'The previously found element ""违规举报" Image" is not present in the current view anymore. Make sure the application UI has the expected state. You could also try to switch the binding strategy using the \'boundElementsByIndex\' setting for the element lookup. Original error: No matches found for Identity Binding from input {(\n    Image, {{60.3, 304.5}, {70.0, 46.0}}, label: \'违规举报\'\n)}'}), retrying in 0.5 seconds...
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/99B890FC-0CDA-4EA3-83C5-59D2147EA319/elements HTTP/1.1" 200 232
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/99B890FC-0CDA-4EA3-83C5-59D2147EA319/elements HTTP/1.1" 200 232
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "GET /session/99B890FC-0CDA-4EA3-83C5-59D2147EA319/element/7B080000-0000-0000-190C-000000000000/rect HTTP/1.1" 200 142
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/99B890FC-0CDA-4EA3-83C5-59D2147EA319/wda/tap/0 HTTP/1.1" 200 76
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/99B890FC-0CDA-4EA3-83C5-59D2147EA319/elements HTTP/1.1" 404 11222
+WARNING  retry.api:api.py:40 WDARequestError(status=110, value={'error': 'stale element reference', 'message': 'The previously found element ""上传违规车辆编号" StaticText" is not present in the current view anymore. Make sure the application UI has the expected state. You could also try to switch the binding strategy using the \'boundElementsByIndex\' setting for the element lookup. Original error: No matches found for Identity Binding from input {(\n    StaticText, {{29.0, 121.0}, {137.0, 26.0}}, label: \'上传违规车辆编号\', Focused\n)}'}), retrying in 0.5 seconds...
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/99B890FC-0CDA-4EA3-83C5-59D2147EA319/elements HTTP/1.1" 200 232
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "GET /screenshot HTTP/1.1" 200 1221383
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'IHDR' 16 13
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'sRGB' 41 1
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'eXIf' 54 56
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'iDOT' 122 28
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:698 b'iDOT' 122 28 (unknown)
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'IDAT' 162 16384
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/99B890FC-0CDA-4EA3-83C5-59D2147EA319/elements HTTP/1.1" 200 232
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "GET /session/99B890FC-0CDA-4EA3-83C5-59D2147EA319/element/90080000-0000-0000-190C-000000000000/rect HTTP/1.1" 200 140
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/99B890FC-0CDA-4EA3-83C5-59D2147EA319/wda/tap/0 HTTP/1.1" 200 76
+INFO     test:back_to_another_page.py:35 返回ride 尝试left arrow grey
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/99B890FC-0CDA-4EA3-83C5-59D2147EA319/elements HTTP/1.1" 200 232
