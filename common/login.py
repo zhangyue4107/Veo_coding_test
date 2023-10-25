@@ -5,11 +5,11 @@ import sys
 from wda import Client
 from common.log import logger
 from common.custom_operation import assert_element_exist
+from common.environment import Dev
 
-
-def login(device: Client):
+def login(device: Client,user_name):
     device(label="我的").click()
-    if assert_element_exist(device(label="张越")):
+    if assert_element_exist(device(label=user_name)):
         logger.info("当前账号已经登录")
         return True
     try:
@@ -23,7 +23,7 @@ def login(device: Client):
     # 点击同意按钮
     device.xpath('//Window[1]/Other[3]/Other[1]/Other[1]/Other[1]/Button[2]/StaticText[1]').click(timeout=3)
     # 同意过后等待跳转
-    if assert_element_exist(device(label="张越")):
+    if assert_element_exist(device(label=user_name)):
         logger.info("登录成功")
         return True
     logger.error("登陆失败")

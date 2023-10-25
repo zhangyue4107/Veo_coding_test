@@ -39,7 +39,7 @@ class Dev:
         sys.exit(1)
     # 设备登录
     try:
-        login(device)
+        login(device, user_name)
     except Exception as e:
         print('登录失败,reason:{}'.format(e))
         sys.exit(1)

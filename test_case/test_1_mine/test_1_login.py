@@ -36,6 +36,6 @@ class TestMineLogin:
     @allure.title('验证未登录情况下对app登录')
     def test_mine_login(self,info):
         device=info.device
-        assert login(device) is True
+        assert login(device,user_name=info.user_name) is True
         logger.info("登录成功")
         attach_screenshot(device, '登录成功后截图')
