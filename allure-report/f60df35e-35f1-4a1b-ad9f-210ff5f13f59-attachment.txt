@@ -1,0 +1,34 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 78
+INFO     test:test_3_banner.py:24 可能已在首页
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 232
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 232
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "GET /session/7D278F67-A253-411C-8436-F4B62705D1D6/element/B2000000-0000-0000-0D45-000000000000/rect HTTP/1.1" 200 143
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/wda/tap/0 HTTP/1.1" 200 76
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 232
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 232
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "GET /session/7D278F67-A253-411C-8436-F4B62705D1D6/element/6B060000-0000-0000-0D45-000000000000/rect HTTP/1.1" 200 142
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/wda/tap/0 HTTP/1.1" 200 76
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 232
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "GET /screenshot HTTP/1.1" 200 1579844
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'IHDR' 16 13
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'sRGB' 41 1
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'eXIf' 54 56
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'iDOT' 122 28
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:698 b'iDOT' 122 28 (unknown)
+DEBUG    PIL.PngImagePlugin:PngImagePlugin.py:186 STREAM b'IDAT' 162 16384
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 78
+INFO     test:back_to_another_page.py:35 返回ride 尝试left arrow grey
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 232
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "GET /session/7D278F67-A253-411C-8436-F4B62705D1D6/element/AA060000-0000-0000-0D45-000000000000/rect HTTP/1.1" 200 141
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/wda/tap/0 HTTP/1.1" 200 76
+INFO     test:back_to_another_page.py:43 返回ride 尝试xpath
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 232
