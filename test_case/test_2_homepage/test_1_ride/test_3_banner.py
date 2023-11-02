@@ -41,6 +41,7 @@ class TestHomepageRideBanner:
             raise AssertionError("验证骑行页面banner-找车功能失败，未知错误：{}".format(e))
         finally:
             back_to_ride(device, info.bundle_id)
+            time.sleep(1)
     
     @pytest.mark.order(2)
     @allure.title('验证骑行页面banner-客服中心')
@@ -62,6 +63,7 @@ class TestHomepageRideBanner:
             raise AssertionError("验证骑行页面banner-客服中心失败，未知错误：{}".format(e))
         finally:
             back_to_ride(device, info.bundle_id)
+            time.sleep(1)
     
     @pytest.mark.order(3)
     @allure.title('验证骑行页面banner-故障上报')
@@ -82,6 +84,7 @@ class TestHomepageRideBanner:
         finally:
             # 点击返回按钮
             back_to_ride(device, info.bundle_id)
+            time.sleep(1)
         
     @pytest.mark.order(4)
     @allure.title('验证骑行页面banner-申请停车点')
@@ -104,6 +107,7 @@ class TestHomepageRideBanner:
         finally:
             # 点击返回按钮
             back_to_ride(device, info.bundle_id)
+            time.sleep(1)
         
     @pytest.mark.order(5)
     @allure.title('验证骑行页面banner-违规举报')
@@ -130,6 +134,7 @@ class TestHomepageRideBanner:
         finally:
             # 点击返回按钮
             back_to_ride(device, info.bundle_id)
+            time.sleep(1)
     
     @pytest.mark.order(6)
     @allure.title('验证骑行页面banner-今日福利')

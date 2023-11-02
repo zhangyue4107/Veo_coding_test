@@ -1,0 +1,26 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "GET /session/7D278F67-A253-411C-8436-F4B62705D1D6/window/size HTTP/1.1" 200 115
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/wda/dragfromtoforduration HTTP/1.1" 200 76
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 404 11178
+WARNING  retry.api:api.py:40 WDARequestError(status=110, value={'error': 'stale element reference', 'message': 'The previously found element ""违规举报" Image" is not present in the current view anymore. Make sure the application UI has the expected state. You could also try to switch the binding strategy using the \'boundElementsByIndex\' setting for the element lookup. Original error: No matches found for Identity Binding from input {(\n    Image, {{31.5, 101.5}, {23.3, 15.3}}, label: \'违规举报\'\n)}'}), retrying in 0.5 seconds...
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 232
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 232
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "GET /session/7D278F67-A253-411C-8436-F4B62705D1D6/element/1F090000-0000-0000-7A44-000000000000/rect HTTP/1.1" 200 142
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/wda/tap/0 HTTP/1.1" 200 76
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 78
+ERROR    test:test_3_banner.py:129 验证骑行页面banner-违规举报失败
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 78
+INFO     test:back_to_another_page.py:35 返回ride 尝试left arrow grey
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 232
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "GET /session/7D278F67-A253-411C-8436-F4B62705D1D6/element/2F090000-0000-0000-7A44-000000000000/rect HTTP/1.1" 200 141
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/wda/tap/0 HTTP/1.1" 200 76
+INFO     test:back_to_another_page.py:43 返回ride 尝试xpath
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/7D278F67-A253-411C-8436-F4B62705D1D6/elements HTTP/1.1" 200 232
