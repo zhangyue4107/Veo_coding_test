@@ -1,6 +1,7 @@
 import time
 
 import allure
+import pytest
 
 from common.log import logger
 from common.custom_operation import assert_element_exist, force_tap
@@ -11,6 +12,7 @@ from common.back_to_another_page import back_to_homepage, back_to_ride, restart_
 @allure.epic('[首页]模块')
 @allure.feature('骑行页面-banner功能验证')
 class TestHomepageRideBanner:
+    @pytest.mark.order(1)
     @allure.title('验证骑行页面banner-找车功能')
     def test_homepage_ride_banner_find_bike(self, info):
         device = info.device
@@ -40,13 +42,14 @@ class TestHomepageRideBanner:
         finally:
             back_to_ride(device, info.bundle_id)
     
+    @pytest.mark.order(2)
     @allure.title('验证骑行页面banner-客服中心')
     def test_homepage_ride_banner_customer_service_center(self, info):
         device = info.device
         # 点击客服中心
         try:
             assert assert_element_exist(device(label="客服中心"))
-            device(label="客服中心").click()
+            device(label="客服中心").click(timeout=3)
             # 通过【计费规则】验证是否进入客服中心
             assert assert_element_exist(device(label="计费规则"))
             attach_screenshot(device, '点击客服中心后截图')
@@ -60,16 +63,13 @@ class TestHomepageRideBanner:
         finally:
             back_to_ride(device, info.bundle_id)
     
+    @pytest.mark.order(3)
     @allure.title('验证骑行页面banner-故障上报')
     def test_homepage_ride_banner_fault_report(self, info):
         device = info.device
-        # 验证上一步强制点击的时候 返回到首页了
         try:
-            if assert_element_exist(device(label="骑行"), retry_times=3):
-                device(label="骑行").click()
-            # 点击故障上报
             assert assert_element_exist(device(label="故障上报"))
-            device(label="故障上报").click()
+            device(label="故障上报").click(timeout=3)
             # 通过【上传车辆编号】文字验证是否进入故障上报页面
             assert assert_element_exist(device(label="上传车辆编号"))
             attach_screenshot(device, '点击故障上报后截图')
@@ -83,6 +83,7 @@ class TestHomepageRideBanner:
             # 点击返回按钮
             back_to_ride(device, info.bundle_id)
         
+    @pytest.mark.order(4)
     @allure.title('验证骑行页面banner-申请停车点')
     def test_homepage_ride_banner_applying_parking_spot(self, info):
         device = info.device
@@ -104,6 +105,7 @@ class TestHomepageRideBanner:
             # 点击返回按钮
             back_to_ride(device, info.bundle_id)
         
+    @pytest.mark.order(5)
     @allure.title('验证骑行页面banner-违规举报')
     def test_homepage_ride_banner_report_violation(self, info):
         device = info.device
@@ -129,6 +131,7 @@ class TestHomepageRideBanner:
             # 点击返回按钮
             back_to_ride(device, info.bundle_id)
     
+    @pytest.mark.order(6)
     @allure.title('验证骑行页面banner-今日福利')
     def test_homepage_ride_banner_today_welfare(self, info):
         device = info.device

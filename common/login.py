@@ -5,7 +5,7 @@ import sys
 from wda import Client
 from common.log import logger
 from common.custom_operation import assert_element_exist
-from common.environment import Dev
+
 
 def login(device: Client,user_name):
     device(label="我的").click()

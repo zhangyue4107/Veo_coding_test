@@ -21,8 +21,8 @@ class Dev:
     # app bundle id
     bundle_id = 'com.jingyao.EasyBike'
     # 账户基本信息设置
-    phone_number = attr.ib(default='15884473327')
-    user_name = attr.ib(default='张越')
+    phone_number = '15884473327'
+    user_name = '张越'
     try:
         device = wda.Client(wda_address + ':' + wda_port)
         device_info = attr.ib(default=device.info)

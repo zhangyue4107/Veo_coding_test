@@ -1,0 +1,30 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/6391109F-395B-41D4-8337-EF6F77D4C335/elements HTTP/1.1" 200 232
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/6391109F-395B-41D4-8337-EF6F77D4C335/elements HTTP/1.1" 200 232
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "GET /session/6391109F-395B-41D4-8337-EF6F77D4C335/element/5E070000-0000-0000-B043-000000000000/rect HTTP/1.1" 200 143
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/6391109F-395B-41D4-8337-EF6F77D4C335/wda/tap/0 HTTP/1.1" 200 76
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/6391109F-395B-41D4-8337-EF6F77D4C335/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/6391109F-395B-41D4-8337-EF6F77D4C335/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/6391109F-395B-41D4-8337-EF6F77D4C335/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/6391109F-395B-41D4-8337-EF6F77D4C335/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/6391109F-395B-41D4-8337-EF6F77D4C335/elements HTTP/1.1" 200 78
+ERROR    test:test_3_banner.py:58 验证骑行页面banner-客服中心失败，断言失败
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/6391109F-395B-41D4-8337-EF6F77D4C335/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/6391109F-395B-41D4-8337-EF6F77D4C335/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/6391109F-395B-41D4-8337-EF6F77D4C335/elements HTTP/1.1" 200 78
+INFO     test:back_to_another_page.py:35 返回ride 尝试left arrow grey
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/6391109F-395B-41D4-8337-EF6F77D4C335/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/6391109F-395B-41D4-8337-EF6F77D4C335/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/6391109F-395B-41D4-8337-EF6F77D4C335/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/6391109F-395B-41D4-8337-EF6F77D4C335/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/6391109F-395B-41D4-8337-EF6F77D4C335/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/6391109F-395B-41D4-8337-EF6F77D4C335/elements HTTP/1.1" 200 78
+INFO     test:back_to_another_page.py:43 返回ride 尝试xpath
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/6391109F-395B-41D4-8337-EF6F77D4C335/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/6391109F-395B-41D4-8337-EF6F77D4C335/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/6391109F-395B-41D4-8337-EF6F77D4C335/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "GET /session/6391109F-395B-41D4-8337-EF6F77D4C335/window/size HTTP/1.1" 200 115
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/6391109F-395B-41D4-8337-EF6F77D4C335/wda/tap/0 HTTP/1.1" 200 76
+INFO     test:back_to_another_page.py:46 返回ride 尝试坐标0.058, 0.082
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/6391109F-395B-41D4-8337-EF6F77D4C335/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/6391109F-395B-41D4-8337-EF6F77D4C335/elements HTTP/1.1" 200 78
+DEBUG    urllib3.connectionpool:connectionpool.py:433 http://127.0.0.1:8200 "POST /session/6391109F-395B-41D4-8337-EF6F77D4C335/elements HTTP/1.1" 200 232
