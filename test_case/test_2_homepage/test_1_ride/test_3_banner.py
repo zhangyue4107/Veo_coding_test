@@ -51,7 +51,7 @@ class TestHomepageRideBanner:
             assert assert_element_exist(device(label="客服中心"))
             device(label="客服中心").click(timeout=3)
             # 通过【计费规则】验证是否进入客服中心
-            assert assert_element_exist(device(label="计费规则"))
+            assert assert_element_exist(device(label="猜你想问"))
             attach_screenshot(device, '点击客服中心后截图')
             time.sleep(1)  # 等待页面加载
         except AssertionError as e:
@@ -90,7 +90,7 @@ class TestHomepageRideBanner:
         try:
             # 点击申请停车点
             assert assert_element_exist(device(label="申请停车点"))
-            device(label="申请停车点").click()
+            device(label="申请停车点").click(timeout=3)
             # 通过【用车】【停车】按钮文字验证是否进入申请停车点页面
             assert assert_element_exist(device(label="用车"))
             assert assert_element_exist(device(label="停车"))
@@ -117,7 +117,7 @@ class TestHomepageRideBanner:
                 if assert_element_exist(device(label="违规举报"), retry_times=1):
                     break
                 time.sleep(1)
-            device(label="违规举报").click()
+            device(label="违规举报").click(timeout=3)
             # 通过【上传违规车辆编号】文字验证是否进入违规举报页面
             assert assert_element_exist(device(label="上传违规车辆编号"))
             attach_screenshot(device, '点击违规举报后截图')
@@ -142,7 +142,7 @@ class TestHomepageRideBanner:
                 if assert_element_exist(device(label="今日福利"), retry_times=1):
                     break
                 time.sleep(1)
-            device(label="今日福利").click()
+            device(label="今日福利").click(timeout=3)
             # 通过【优惠购卡专区】文字验证是否进入今日福利页面
             assert_element_exist(
                 device.xpath('//Window[1]/Other[1]/Other[1]/Other[1]/Other[1]/Other[1]/Other[1]/Other[1]/StaticText[1]'))
